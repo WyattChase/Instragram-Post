@@ -1,21 +1,50 @@
 body {
-    background:lightgrey;
-    margin: 0;
-    text-align: center;
-    
-}
+    background:black;
 
-div {
-    box-sizing: border-box;
 }
 
 header {
-    background: white;
-    text-align: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin-bottom: 20px;
-    
+    margin-top: 20px;
+}
+
+div {
+    box-sizing: content-box;
+}
+
+p {
+    padding-left: 8px;
+    padding-right: 2px;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa-html5 {
+    margin-left: 10px;
+}
+
+.text {
+    margin-left: 40px;
+    margin-top: -30px;
+}
+
+
+
+.fa-heart-o, .fa-comment-o, .fa-paper-plane-o {
+    margin-left: 10px;
+}
+
+.fa-ellipsis-v {
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+.fa-bookmark-o {
+    float: right;
+    padding-right: 10px;
 }
 
 header h1 {
@@ -28,23 +57,11 @@ header h1 {
     display: inline-block;
 }
 
-.post span {
-    float: right;
-    padding: 20px;
-    margin: 0;
-    color: grey;
-}
 .post img {
     width: 500px;
     margin: 0;
 }
 
-.post h2, .post p {
-    padding: 15px;
-    float: left;
-    margin: 0;
-    background: white;
-}
 .container {
     width: 500px;
     margin: auto;
